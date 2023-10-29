@@ -1,6 +1,8 @@
 <h1>Projeto Relógio Inteligente com ESP32 e Display LCD</h1>
 Este projeto tem como objetivo criar um dispositivo que exibe a hora e a data atuais em um display LCD, além de permitir alternar entre a exibição da data e da hora. O dispositivo também se conecta a um servidor NTP para sincronizar o tempo e ajustar automaticamente.
 
+<br>**Vídeo de apresentação do projeto:** https://www.youtube.com/watch?v=0ye7XP6S5dE<br>
+
 <h2>Componentes Utilizados</h2>
 <ul>Placa ESP32 (ou compatível)</ul>
 <ul>Display LCD 16x2</ul>
