@@ -12,7 +12,7 @@ const int daylightOffset_sec = 0; // Deslocamento do horário de verão
 
 bool mostrarData = true; // Variável para alternar entre data e hora
 
-const char* diaDaSemana[] = {"Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"};
+const char* diaDaSemana[] = {"Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sabado"};
 const char* nomeDoMes[] = {"Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"};
 
 // Função para centralizar texto no display
