@@ -14,8 +14,6 @@ Este projeto tem como objetivo criar um dispositivo que exibe a hora e a data at
 <ul>Sincroniza o tempo com um servidor NTP para manter a precisão.</ul>
 <ul>Cumprimento exibido com base na hora atual (Bom Dia, Boa Tarde, Boa Noite).</ul>
 
-<img src="Simulador.png" width="950px" height="500px">
-
 <h2>Bibliotecas Utilizadas</h2>
 <ul>WiFi: Para a conexão à rede Wi-Fi.</ul>
 <ul>NTP (Network Time Protocol): Para sincronização do tempo com um servidor NTP.</ul>
@@ -28,6 +26,8 @@ O código faz a configuração inicial da rede Wi-Fi, fuso horário, servidor NT
 O dispositivo exibe a hora atual e o dia da semana no display LCD. Pressionando o botão, é possível alternar entre a exibição da data e do horário. Além disso, o cumprimento exibido muda com base na hora atual (Bom Dia, Boa Tarde, Boa Noite).
 
 O tempo é sincronizado com um servidor NTP, garantindo a precisão da hora exibida. Quando a sincronização de tempo ocorre, uma notificação é exibida no monitor serial.
+
+<img src="Simulador.png" width="950px" height="480px">
 
 <h2>Como Usar</h2>
 <ol>1. Conecte a placa ESP32 ao display LCD e ao botão de pressão conforme especificado no código.</ol>
