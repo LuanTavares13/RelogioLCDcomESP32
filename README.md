@@ -14,6 +14,8 @@ Este projeto tem como objetivo criar um dispositivo que exibe a hora e a data at
 <ul>Sincroniza o tempo com um servidor NTP para manter a precisão.</ul>
 <ul>Cumprimento exibido com base na hora atual (Bom Dia, Boa Tarde, Boa Noite).</ul>
 
+<img src="Simulador.png" width="950px" height="500px">
+
 <h2>Bibliotecas Utilizadas</h2>
 <ul>WiFi: Para a conexão à rede Wi-Fi.</ul>
 <ul>NTP (Network Time Protocol): Para sincronização do tempo com um servidor NTP.</ul>
@@ -36,5 +38,3 @@ O tempo é sincronizado com um servidor NTP, garantindo a precisão da hora exib
    
 <h2>Autor</h2>
 Luan Tavares da Silva
-
-<h4>Observação: Certifique-se de ajustar as informações de rede Wi-Fi, servidor NTP e outras configurações de acordo com suas necessidades antes de carregar o código no ESP32.</h4>
