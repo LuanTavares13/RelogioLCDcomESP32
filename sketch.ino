@@ -43,11 +43,11 @@ void printLocalTime() {
     String saudacao;
     int horaAtual = timeinfo.tm_hour;
     if (horaAtual >= 6 && horaAtual < 12) {
-      saudacao = "Bom dia!";
+      saudacao = "Bom Dia!";
     } else if (horaAtual >= 12 && horaAtual < 18) {
-      saudacao = "Boa tarde!";
+      saudacao = "Boa Tarde!";
     } else {
-      saudacao = "Boa noite!";
+      saudacao = "Boa Noite!";
     }
     centralizarTexto(saudacao, 0);
 
