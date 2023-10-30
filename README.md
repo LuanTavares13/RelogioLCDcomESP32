@@ -4,22 +4,28 @@ Este projeto tem como objetivo criar um dispositivo que exibe a hora e a data at
 <br>**Vídeo de apresentação do projeto:** https://www.youtube.com/watch?v=RoLLQjfQBHQ<br>
 
 <h2>Componentes Utilizados</h2>
-<ul>Placa ESP32 (ou compatível)</ul>
-<ul>Display LCD 16x2</ul>
-<ul>Push button (Botão de pressão)</ul>
-<ul>Acesso a uma rede Wi-Fi</ul>
-<ul>Servidor NTP (a.ntp.br neste exemplo)</ul>
+<ul>
+   <li>Placa ESP32 (ou compatível)</li>
+   <li>Display LCD 16x2</li>
+   <li>Push button (Botão de pressão)</li>
+   <li>Acesso a uma rede Wi-Fi</li>
+   <li>Servidor NTP (a.ntp.br neste exemplo)</li>
+</ul>
 
 <h2>Funcionalidades</h2>
-<ul>Exibe a data e hora atuais em um display LCD 16x2.</ul>
-<ul>Alternância entre a exibição da data e da hora pressionando um botão.</ul>
-<ul>Sincroniza o tempo com um servidor NTP para manter a precisão.</ul>
-<ul>Cumprimento exibido com base na hora atual (Bom Dia, Boa Tarde, Boa Noite).</ul>
+<ul>
+   <li>Exibe a data e hora atuais em um display LCD 16x2.</li>
+   <li>Alternância entre a exibição da data e da hora pressionando um botão.</li>
+   <li>Sincroniza o tempo com um servidor NTP para manter a precisão.</li>
+   <li>Cumprimento exibido com base na hora atual (Bom Dia, Boa Tarde, Boa Noite).</li>
+</ul>
 
 <h2>Bibliotecas Utilizadas</h2>
-<ul>WiFi: Para a conexão à rede Wi-Fi.</ul>
-<ul>NTP (Network Time Protocol): Para sincronização do tempo com um servidor NTP.</ul>
-<ul>LiquidCrystal: Para controlar o display LCD.</ul>
+<ul>
+   <li>WiFi: Para a conexão à rede Wi-Fi.</li>
+   <li>NTP (Network Time Protocol): Para sincronização do tempo com um servidor NTP.</li>
+   <li>LiquidCrystal: Para controlar o display LCD.</li>
+</ul>
 
 <h2>Configuração</h2>   
 O código faz a configuração inicial da rede Wi-Fi, fuso horário, servidor NTP e inicializa o display LCD. Ele também configura o botão de pressão como entrada com pull-up.
